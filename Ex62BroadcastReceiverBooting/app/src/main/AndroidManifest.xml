@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mrhi.ex62broadcastreceiverbooting">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- oreo버전 부터 반드시 receiver태그문에 속성으로 퍼미션 속성을 써야함 -->
+        <receiver android:name=".BootingReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+
+                <!-- 문자메세지 방송 인텐트 액션-->
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+
+                <!-- 화면이 꺼졌다가 켜졌을 때 -->
+                <action android:name="android.intent.action.SCREEN_ON"/>
+
+
+
+                <action android:name="aaa"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

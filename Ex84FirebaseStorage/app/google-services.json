@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "880258818270",
+    "firebase_url": "https://ex84storage-6f550.firebaseio.com",
+    "project_id": "ex84storage-6f550",
+    "storage_bucket": "ex84storage-6f550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880258818270:android:09effdfbb454ffaebe224f",
+        "android_client_info": {
+          "package_name": "com.mrhi.ex84firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880258818270-pu00bvco19ptgbmg6519kcfi96nvoc9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcnYmJ8U3DaMx1zKIP8VFArswMZdKwvW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880258818270-pu00bvco19ptgbmg6519kcfi96nvoc9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

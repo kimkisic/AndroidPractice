@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "7426155752",
+    "firebase_url": "https://ex83fdb.firebaseio.com",
+    "project_id": "ex83fdb",
+    "storage_bucket": "ex83fdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7426155752:android:cdc7a78e358dbc3eb0955d",
+        "android_client_info": {
+          "package_name": "com.mrhi.ex83firebasedbtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7426155752-q2h7mu9e6ofs5d78hqth04lludo9p1hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnET3GzjHU-9SebKYAn17J8SQ1STXpZ-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7426155752-q2h7mu9e6ofs5d78hqth04lludo9p1hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1003525487281",
+    "firebase_url": "https://mrhiex86fcmpush.firebaseio.com",
+    "project_id": "mrhiex86fcmpush",
+    "storage_bucket": "mrhiex86fcmpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003525487281:android:e053e105c5f223df998090",
+        "android_client_info": {
+          "package_name": "com.mrhi.ex86firebasecloudmessagepush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003525487281-tc9sa0cbjnqn7jr37am7v7vq7c03uast.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtimfeEY9dkOw8jqIoqhS-AKD4-Ev3Xsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003525487281-tc9sa0cbjnqn7jr37am7v7vq7c03uast.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

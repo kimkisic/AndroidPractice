@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "721508509345",
+    "firebase_url": "https://ex85fchatting.firebaseio.com",
+    "project_id": "ex85fchatting",
+    "storage_bucket": "ex85fchatting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721508509345:android:e0be563688d81288ac72e0",
+        "android_client_info": {
+          "package_name": "com.mrhi.ex85firebasechatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721508509345-51ftlpt4bsvaptrqmvknjr801tnnoup0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbZnfDZGIbj5EuB5nnVVKcbo0AOC9aev0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721508509345-51ftlpt4bsvaptrqmvknjr801tnnoup0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
